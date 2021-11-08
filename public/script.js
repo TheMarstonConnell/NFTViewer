@@ -76,7 +76,9 @@ function main(){
 
         console.log(owner);
         if(owner == "null"){
-            window.location.href = "/verify.html";
+
+
+            window.location.href = "/need_to_verify.html";
 
             return;
         }
